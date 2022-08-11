@@ -13,7 +13,7 @@ nav > ul > li{
 }
 nav > ul > li > a{
     display: block;
-    width: 217px;
+    width: 166.8px;
     padding: 15px;
     font-family: sans-serif;
     font-size: larger;
@@ -22,6 +22,9 @@ nav > ul > li > a{
 
 nav > ul > li > a:hover{
     background-color: chocolate;
+    transition-duration: 0.5s;
+
+
 }
 
 .dropdown{
@@ -35,7 +38,9 @@ nav > ul > li > a:hover{
 }
 
 .dropdown > li > a{
+    
     display: block;
+    transition-duration: 2s;
     width: 217px;
     padding: 15px;
     font-family: sans-serif;
@@ -46,6 +51,7 @@ nav > ul > li > a:hover{
 }
 .dropdown > li > a:hover{
     background-color: chocolate;
+    transition-duration: 0.5s;
 }
 
 nav > ul > li:hover .dropdown{
